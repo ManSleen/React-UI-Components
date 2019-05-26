@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin: 12px 0 5px 10%;
+}
+
+.footer a {
+  margin-right: 60px;
+  text-decoration: none;
+  color: grey;
+}
+
+.footer a:hover {
+  color: black;
+}
