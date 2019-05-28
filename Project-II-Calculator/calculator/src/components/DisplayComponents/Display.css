@@ -6,3 +6,7 @@
   text-align: right;
   line-height: 7.5rem;
 }
+
+.calculator-display p {
+  padding-right: 20px;
+}
