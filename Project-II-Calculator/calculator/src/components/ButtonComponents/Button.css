@@ -1,0 +1,33 @@
+.zero,
+.clear {
+  width: 75%;
+  background-color: white;
+  font-size: 3rem;
+}
+
+.red,
+.white {
+  width: 25%;
+  font-size: 3rem;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 120px;
+}
+
+.red {
+  background-color: firebrick;
+}
+
+.white {
+  background-color: white;
+}

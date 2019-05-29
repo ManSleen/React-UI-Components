@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+.card-container {
+  width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  border: 0.5px solid lightgrey;
+  align-items: flex-end;
+  margin-left: 10%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-container img {
+  width: 100%;
+}
+
+.card-content {
+  margin: 5px 5px 5px 20px;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: black;
+  line-height: 20px;
+}
+
+.card-content h3 {
+  font-size: 13px;
+  color: grey;
+}
